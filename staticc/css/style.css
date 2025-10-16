@@ -1,0 +1,54 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-dark{
+	background-color: #75767B;
+}
+
+
+.mt-50{
+	margin-top: 50px;
+}
+#canvas{
+    border: 2px solid black;
+}
+body {
+      background-color: #343a40; /* Dark background */
+      color: #fff; /* White text */
+      font-family: 'Arial', sans-serif;
+    }
+    .card {
+      margin-top: 50px;
+      background-color: #495057; /* Dark card background */
+      border: none;
+    }
+    .card-header {
+      background-color: #6c757d; /* Slightly lighter card header */
+      border-bottom: 1px solid #6c757d;
+    }
+    .card-header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .form-group label {
+      color: #fff; /* White text for labels */
+    }
+    .form-control {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #6c757d; /* Input background */
+      border: 1px solid #6c757d;
+      color: #fff; /* Input text color */
+    }
+    .btn-primary {
+      width: 100%;
+      max-width: 400px;
+      margin: 20px auto;
+      background-color: #007bff; /* Primary button color */
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3; /* Darker primary button color on hover */
+    }
