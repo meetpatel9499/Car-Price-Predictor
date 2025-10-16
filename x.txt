@@ -1,0 +1,11 @@
+
+def predict():
+    company = request.form.get('company')
+    car_model = request.form.get('car_models')
+    year = int(request.form.get('year'))
+    fuel_type = request.form.get('fuel_type')
+    kms_driven = int(request.form.get('kilo_driven'))
+    print(company, car_model, year, fuel_type, kms_driven)
+    prediction = model.predict(pd.DataFrame[[car_model, company, year, kms_driven,fuel_type]], columns=['name', 'company', 'year', 'kms_driven', 'fuel_type'])
+    print (prediction)
+    return ""
